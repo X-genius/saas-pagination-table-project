@@ -1,0 +1,39 @@
+#header-message {
+  margin-left: 80px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  table {
+    border: 1px solid black;
+    width: 100%;
+  }
+  table tr {
+    background-color: beige;
+  }
+  table tr td {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  td,
+  th {
+    padding: 5px;
+    text-align: center;
+  }
+  td:nth-child(2) {
+    width: 70% !important;
+  }
+
+  button {
+    padding: 5px;
+  }
+
